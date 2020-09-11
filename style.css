@@ -1,0 +1,239 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+}
+body
+{
+    position: relative;
+    min-height: 100%;
+    top: 0px;
+}
+header
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#wrapper
+{
+
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+@media screen and (max-width: 1000px)
+{
+    #wrapper
+    {
+        width: 100%;
+    }
+}
+/*first navbar*/
+.hidden
+{
+    position: relative;
+    padding-top: px;
+    padding-left: 50px;
+    width: auto;
+}
+.navbar
+{
+    float: right;
+    width: auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+.navbar li
+{
+    display: inline-block;
+}
+.navbar li a
+{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(194, 194, 194);
+    box-shadow: 1px 2px 1px rgb(194, 194, 194);
+    color: rgb(80, 80, 80);
+}
+@media screen and (max-width: 900px)
+{
+    .navbar
+    {
+        width: 100%;
+        float: center;
+        padding: 20;
+        display: block;
+        margin: 0;
+        border: 0;
+        font-size: 100%;
+
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .navbar li a
+    {
+        padding-top: 10px;
+        display: block;
+    }
+}
+.logo
+{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+@media screen and (max-width: 250px)
+{
+    .logo img
+    {
+        width: 100%;
+    }
+}
+
+/*second navbar*/
+.main-menu
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ae0b05;
+}
+.main-menu li
+{
+    list-style: none;
+    justify-content: space-around;
+}
+.main-menu li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 900px)
+{
+    .main-menu    {
+        width: 100%;
+        display: block;
+    }
+    .menu-item
+    {
+        width: 100%;
+    }
+}
+
+/* från rad 60och ner på index.html*/
+.middle-searchbar
+{
+    width: 100%;
+    height: 350px;
+    float: right;
+}
+.middle-searchbar .bild
+{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.bild
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+}
+.search
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    width: 30%;
+    min-width: 300px;
+    z-index: 99;
+}.label-lg
+{
+    font-size: 1.1em;
+    padding: .3em .6em;
+    background-color: #ae0b05;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 0;
+}
+.input-group
+{
+    height: 54px;
+    padding: 0px;
+    border: none;
+    font-size: 1em;
+    position: relative;
+    border-collapse: separate;
+    display: table-cell;
+
+}
+input
+{
+    position: relative;
+}
+@media screen and (max-width: 1200)
+{
+    .input-group, .input
+    {
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 1200)
+{
+    .middle-searchbar
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .bild 
+    {
+        width: 100%;
+        position: relative;
+    }
+}
+/* Main */
+#main-content
+{
+    display: block;
+    width: 100%;
+}
+.creamy
+{
+    width: 100%;
+}
+.rows
+{
+    width: 100%;
+    height: 350px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid
+{
+    
+}
+.column
+{
+    width: 25%;
+}
